@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = master
+[user]
+	name = ofiryanai
+	email = ofir@aggua.io
+[core]
+	editor = vim
+	pager = cat
+[alias]
+	st = status
