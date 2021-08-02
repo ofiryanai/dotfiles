@@ -101,3 +101,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.aliases
+
+export PATH=$PATH:/Users/ofiryanai/Library/Python/3.8/bin
+
+if [[ -f ~/.npm.token ]]; then
+    export NPM_TOKEN=$(cat ~/.npm.token)
+fi
+
