@@ -8,3 +8,8 @@
 	pager = cat
 [alias]
 	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[pull]
+	rebase = true
